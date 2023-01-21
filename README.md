@@ -1,1 +1,2 @@
-# Jyouskie.github.io
+# CSD-340
+HTML/CSS
