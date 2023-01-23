@@ -5,20 +5,58 @@ h1 {
 
 #container {
     width: 500px;
-    border: 1px solid black;
     overflow: hidden;
-    /* add this to contain floated children */
+
 }
 
 #left {
-    width: 300px;
+    width: 45%;
     float: left;
-    /* add this */
-    border: 1px solid red;
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
 }
 
 #right {
-    border: 1px solid green;
+    width: 45%;
     float: right;
-    /* add this */
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+}
+
+#last {
+    margin-top: 60%;
+}
+
+h3 {
+    font-weight: 500;
+
+}
+
+li {
+    font-weight: 300;
+}
+
+ol {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: upper-roman;
+    padding: 10px;
+    border: 1px dashed red;
+    border-radius: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+    float: right;
+    margin-bottom: 20px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
