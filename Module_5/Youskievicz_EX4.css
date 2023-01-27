@@ -2,8 +2,22 @@ h1 {
     text-align: center;
 }
 
-div.first {}
+div.first {
+    float: left;
+    margin-top: 10px;
+    margin-left: 150px;
+}
 
-div.second {}
+div.second {
+    float: left;
+    margin-left: 320px;
+    margin-top: 10px;
 
-div.third {}
+}
+
+div.third {
+    float: right;
+    margin-top: 10px;
+    margin-right: 150px;
+
+}
