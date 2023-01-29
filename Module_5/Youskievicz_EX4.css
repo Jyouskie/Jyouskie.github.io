@@ -2,23 +2,48 @@ h1 {
     text-align: center;
 }
 
-div.first {
-    float: left;
-    margin-top: 10px;
-    margin-left: 150px;
-}
-
-div.second {
-    float: left;
-    margin-left: 320px;
-    margin-top: 10px;
-
+.image-gallery {
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
-div.third {
-    float: right;
-    margin-top: 10px;
-    margin-right: 150px;
+.image-gallery-item {
+    border: 15px solid rgb(185, 63, 8);
+    padding: 5px;
 
+}
+
+.image-gallery-item img {
+    width: 400px;
+    height: 350px;
+}
+
+.image-gallery-item h3 {
+    text-align: center;
+    color: rgb(185, 63, 8);
+}
+
+.image-gallery-item figure {
+    text-align: center;
+}
+
+body {
+    font-weight: 400;
+    font-family: 'Oswald', 'Verdana', 'Arial', 'sans-serif';
+    background-color: rgb(247, 112, 24, 0.20);
+
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgb(185, 63, 8);
+}
+
+.landing-wrapper {
+    display: grid;
+    justify-content: end;
+    margin-top: 5%;
 }
