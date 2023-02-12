@@ -1,5 +1,8 @@
 footer {
-    color: #3FF3FC;
     background-color: #627896;
     font-weight: 400;
+}
+
+a.home {
+    color: #3FF3FC;
 }
