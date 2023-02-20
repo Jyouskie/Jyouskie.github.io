@@ -81,3 +81,25 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+table.movietable {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: #000000;
+}
+
+table.movietable td,
+table.movietable th {
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    padding: 3px;
+}
+
+table.GeneratedTable thead {
+    background-color: #ffcc00;
+}
