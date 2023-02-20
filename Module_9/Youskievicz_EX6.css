@@ -60,7 +60,7 @@ div.card-content:hover {
 
 footer {
     background-color: #627896;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -80,6 +80,15 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* movie table */
+p.left {
+    color: white;
+    font-weight: 400;
+    float: left;
+    padding-right: 10px;
+    font-style: italic;
 }
 
 table.movietable {
@@ -102,4 +111,34 @@ table.movietable th {
 
 table.GeneratedTable thead {
     background-color: #ffcc00;
+}
+
+div#container-movies {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    bottom: 100px;
+}
+
+div.card-movies {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+
+}
+
+div.card-title-movies {
+    text-align: center;
+    font-size: 2em;
+    color: #1e67c9;
+    font-weight: 400;
+}
+
+div.card-content-movies {
+    padding: 2px 16px;
+}
+
+div.card-content-movies:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
