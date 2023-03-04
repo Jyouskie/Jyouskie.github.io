@@ -31,7 +31,6 @@ nav a:hover {
 
 /*Experience*/
 
-
 table.experiencetable {
     width: 100%;
     background-color: #ffffff;
@@ -89,11 +88,11 @@ footer {
     background-color: #627896;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 92%;
 }
 
 footer p {
-    color: white;
+    color: #3FF3FC;
     font-weight: 400;
     float: right;
     padding-right: 10px;
