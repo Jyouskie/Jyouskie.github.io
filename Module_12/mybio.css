@@ -29,32 +29,59 @@ nav a:hover {
     color: #3FF3FC;
 }
 
-div.container {
+/*Experience*/
+
+
+table.experiencetable {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    color: #000000;
+}
+
+table.experiencetable td,
+table.experiencetable th {
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    padding: 3px;
+}
+
+table.experiencetable thead {
+    background-color: #1e67c9;
+}
+
+div#container-experience {
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px;
+    bottom: 100px;
 }
 
-div.card {
+div.card-experience {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
 
 }
 
-div.card-title {
+div.card-title-experience {
     text-align: center;
     font-size: 2em;
     color: #1e67c9;
     font-weight: 400;
 }
 
-div.card-content {
+div.card-content-experience {
     padding: 2px 16px;
 }
 
-div.card-content:hover {
+
+div.card-content-experience:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -119,6 +146,7 @@ div#container-hobbies {
     margin-right: 5%;
     padding: 10px;
     bottom: 100px;
+
 }
 
 div.card-hobbies {
