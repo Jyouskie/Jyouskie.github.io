@@ -1,5 +1,5 @@
 header {
-    background-color: #627896;
+    background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
@@ -11,14 +11,14 @@ h1 {
 
 nav {
     overflow: hidden;
-    background-color: #c9301e;
-    border-bottom: solid 15px #1e67c9;
+    background-color: #3FF3FC;
+    border-bottom: solid 15px #333;
 }
 
 nav a {
     float: left;
     display: block;
-    color: white;
+    color: #333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,147 +29,46 @@ nav a:hover {
     color: #3FF3FC;
 }
 
-/*Experience*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
 
-table.experiencetable {
-    width: 100%;
-    background-color: #ffffff;
+table {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
     border-collapse: collapse;
-    border-width: 2px;
-    border-color: #ffcc00;
-    border-style: solid;
-    color: #000000;
 }
 
-table.experiencetable td,
-table.experiencetable th {
-    border-width: 2px;
-    border-color: #ffcc00;
-    border-style: solid;
-    padding: 3px;
+table td,
+table th {
+    padding: 8px;
+    border: 1px solid #ccc;
 }
 
-table.experiencetable thead {
-    background-color: #1e67c9;
-}
-
-div#container-experience {
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10px;
-    bottom: 100px;
-}
-
-div.card-experience {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 50%;
-
-}
-
-div.card-title-experience {
-    text-align: center;
-    font-size: 2em;
-    color: #1e67c9;
-    font-weight: 400;
-}
-
-div.card-content-experience {
-    padding: 2px 16px;
+table:last-child {
+    margin-right: 0;
 }
 
 
-div.card-content-experience:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
 
 footer {
-    background-color: #627896;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    color: #3FF3FC;
-    font-weight: 400;
-    float: right;
-    padding-right: 10px;
-    font-style: italic;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
 }
 
 footer a {
-    text-decoration: none;
     color: #3FF3FC;
 }
 
-footer a:hover {
-    text-decoration: underline;
-}
 
-/* hobbies table */
-p.left {
-    color: white;
-    font-weight: 400;
-    float: left;
-    padding-right: 10px;
-    font-style: italic;
-}
-
-table.hobbietable {
-    width: 100%;
-    background-color: #ffffff;
-    border-collapse: collapse;
-    border-width: 2px;
-    border-color: #ffcc00;
-    border-style: solid;
-    color: #000000;
-
-}
-
-table.hobbietable td,
-table.hobbietable th {
-    border-width: 2px;
-    border-color: #ffcc00;
-    border-style: solid;
-    padding: 3px;
-}
-
-table.hobbietable thead {
-    background-color: #1e67c9;
-}
-
-div#container-hobbies {
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10px;
-    bottom: 100px;
-
-}
-
-div.card-hobbies {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    width: 50%;
-
-}
-
-div.card-title-hobbies {
-    text-align: center;
-    font-size: 2em;
-    color: #1e67c9;
-    font-weight: 400;
-}
-
-div.card-content-hobbies {
-    padding: 2px 16px;
-}
-
-div.card-content-hobbies:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
 
 .contact-form {
     max-width: 600px;
